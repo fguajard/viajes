@@ -8,7 +8,7 @@
   --dark: #000000;
   --success: #28a745;
   --white: white;
-  --light: #F8F9FA;
+  --secondary: #17a2b8;
   --grey: #707070;
   --ft-light: 300;
   --ft-medium: 500;
@@ -21,12 +21,24 @@
   
 }
 
+body{
+  background-color: var(--dark);
+}
+
 .logo-viajes{
     width: 30px;
     height: 30px;
 }
 
-.quienes-somos{
-    background-color: var(--dark);
+hr{
+  background-color: var(--secondary);
+}
+
+.icon-box{
+  background-color: var(--secondary);
+}
+
+.card{
+  background-color: var(--secondary);
 }
 
