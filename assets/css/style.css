@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark: #000000;
+  --success: #28a745;
+  --white: white;
+  --light: #F8F9FA;
+  --grey: #707070;
+  --ft-light: 300;
+  --ft-medium: 500;
+}
+
+* {
+  margin: 0px;
+  border: 0px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.logo-viajes{
+    width: 30px;
+    height: 30px;
+}
+
+.quienes-somos{
+    background-color: var(--dark);
+}
+
